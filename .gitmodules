@@ -1,0 +1,3 @@
+[submodule "Drivers/sd_logger_sm"]
+	path = Drivers/sd_logger_sm
+	url = https://github.com/bazhen-paseka/sd_logger_sm.git
