@@ -1,0 +1,6 @@
+[submodule "Drivers/sd_logger_sm"]
+	path = Drivers/sd_logger_sm
+	url = https://github.com/bazhen-paseka/sd_logger_sm.git
+[submodule "Drivers/SD_card_SPI_TechM_SM"]
+	path = Drivers/SD_card_SPI_TechM_SM
+	url = https://github.com/bazhen-paseka/SD_card_SPI_TechM_SM.git
