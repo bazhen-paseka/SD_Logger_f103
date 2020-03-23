@@ -9,4 +9,10 @@
 
 	#define CLUSTER_SIZE CLUSTER_2048
 
+	#define	SECOND					5
+	#define ADR_I2C_DS3231 			0x68
+	#define SET_RTC_TIM_AND_DATE	0
+
+	#define SOFT_VERSION		120
+
 #endif	//	SD_LOGGER_F103_CONFIG_H_INCLUDED
