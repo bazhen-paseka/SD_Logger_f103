@@ -65,9 +65,9 @@ void Error_Handler(void);
 #define BUTTON_DOWNLOAD_Pin GPIO_PIN_1
 #define BUTTON_DOWNLOAD_GPIO_Port GPIOB
 #define BUTTON_DOWNLOAD_EXTI_IRQn EXTI1_IRQn
-#define RTC_Pin GPIO_PIN_5
-#define RTC_GPIO_Port GPIOB
-#define RTC_EXTI_IRQn EXTI9_5_IRQn
+#define RTC_IRQ_Pin GPIO_PIN_5
+#define RTC_IRQ_GPIO_Port GPIOB
+#define RTC_IRQ_EXTI_IRQn EXTI9_5_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
