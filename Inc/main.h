@@ -58,13 +58,17 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DQ_READ_Pin GPIO_PIN_14
+#define DQ_READ_GPIO_Port GPIOC
+#define DQ_WRITE_Pin GPIO_PIN_15
+#define DQ_WRITE_GPIO_Port GPIOC
 #define LED_GREEN_Pin GPIO_PIN_1
 #define LED_GREEN_GPIO_Port GPIOA
-#define CS_Pin GPIO_PIN_4
-#define CS_GPIO_Port GPIOA
-#define BUTTON_DOWNLOAD_Pin GPIO_PIN_1
+#define SPI_CS_Pin GPIO_PIN_4
+#define SPI_CS_GPIO_Port GPIOA
+#define BUTTON_DOWNLOAD_Pin GPIO_PIN_15
 #define BUTTON_DOWNLOAD_GPIO_Port GPIOB
-#define BUTTON_DOWNLOAD_EXTI_IRQn EXTI1_IRQn
+#define BUTTON_DOWNLOAD_EXTI_IRQn EXTI15_10_IRQn
 #define RTC_IRQ_Pin GPIO_PIN_5
 #define RTC_IRQ_GPIO_Port GPIOB
 #define RTC_IRQ_EXTI_IRQn EXTI9_5_IRQn
