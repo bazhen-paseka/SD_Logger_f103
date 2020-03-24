@@ -41,8 +41,8 @@
 /* Private define ------------------------------------------------------------*/
 /* CS pin settings */
 #ifndef FATFS_CS_PIN
-#define FATFS_CS_PORT						CS_GPIO_Port
-#define FATFS_CS_PIN						CS_Pin
+#define FATFS_CS_PORT						SPI_CS_GPIO_Port
+#define FATFS_CS_PIN						SPI_CS_Pin
 #endif
 /* CS pin */
 #define FATFS_CS_LOW()						FATFS_CS_PORT -> BSRR = FATFS_CS_PIN << 16
