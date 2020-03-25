@@ -13,3 +13,6 @@
 [submodule "Drivers/temp_ds18b20_sm"]
 	path = Drivers/temp_ds18b20_sm
 	url = https://github.com/bazhen-paseka/temp_ds18b20_sm.git
+[submodule "Drivers/lcd1602_fc113_sm"]
+	path = Drivers/lcd1602_fc113_sm
+	url = https://github.com/bazhen-paseka/lcd1602_fc113_sm.git
