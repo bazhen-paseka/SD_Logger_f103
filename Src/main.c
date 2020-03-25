@@ -104,22 +104,7 @@ int main(void)
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
 
-	lcd1602_fc113_struct h1_lcd1602_fc113 =
-	{
-		.i2c = &hi2c1,
-		.device_i2c_address = ADR_I2C_FC113
-	};
-
-	LCD1602_Init(&h1_lcd1602_fc113);
-	I2C_ScanBus_to_LCD1602(&h1_lcd1602_fc113);
-
-	SD_Logger_Init();
-
-		char uart_buffer_c[100];
-		LCD1602_Clear(&h1_lcd1602_fc113);
-		sprintf(uart_buffer_c,"LCD1602 on FC113\r\n");
-		LCD1602_Print_Line(&h1_lcd1602_fc113, uart_buffer_c, strlen(uart_buffer_c));
-
+  	  SD_Logger_Init();
 
   /* USER CODE END 2 */
 
