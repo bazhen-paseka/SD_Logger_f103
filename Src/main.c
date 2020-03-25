@@ -102,6 +102,7 @@ int main(void)
   MX_IWDG_Init();
   MX_USART2_UART_Init();
   MX_USART3_UART_Init();
+  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
 
   	  SD_Logger_Init();

@@ -66,8 +66,12 @@ void Error_Handler(void);
 #define LED_GREEN_GPIO_Port GPIOA
 #define SPI_CS_Pin GPIO_PIN_4
 #define SPI_CS_GPIO_Port GPIOA
-#define BUTTON_DOWNLOAD_Pin GPIO_PIN_15
-#define BUTTON_DOWNLOAD_GPIO_Port GPIOB
+#define CE_Pin GPIO_PIN_12
+#define CE_GPIO_Port GPIOB
+#define CSN_Pin GPIO_PIN_8
+#define CSN_GPIO_Port GPIOA
+#define BUTTON_DOWNLOAD_Pin GPIO_PIN_12
+#define BUTTON_DOWNLOAD_GPIO_Port GPIOA
 #define BUTTON_DOWNLOAD_EXTI_IRQn EXTI15_10_IRQn
 #define RTC_IRQ_Pin GPIO_PIN_5
 #define RTC_IRQ_GPIO_Port GPIOB

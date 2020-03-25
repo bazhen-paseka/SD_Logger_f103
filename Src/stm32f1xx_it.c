@@ -227,7 +227,7 @@ void EXTI15_10_IRQHandler(void)
 		Set_button_download_pressed(1);
 
   /* USER CODE END EXTI15_10_IRQn 0 */
-  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_15);
+  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_12);
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
 
   /* USER CODE END EXTI15_10_IRQn 1 */

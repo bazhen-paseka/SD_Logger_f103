@@ -16,3 +16,9 @@
 [submodule "Drivers/lcd1602_fc113_sm"]
 	path = Drivers/lcd1602_fc113_sm
 	url = https://github.com/bazhen-paseka/lcd1602_fc113_sm.git
+[submodule "https://github.com/bazhen-paseka/nrf24l01_sm.git"]
+	path = https://github.com/bazhen-paseka/nrf24l01_sm.git
+	url = https://github.com/bazhen-paseka/nrf24l01_sm.git
+[submodule "Drivers/nrf24l01_sm"]
+	path = Drivers/nrf24l01_sm
+	url = https://github.com/bazhen-paseka/nrf24l01_sm.git
